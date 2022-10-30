@@ -92,7 +92,11 @@ d = {'Layer (type)': ['lambda (Lambda)', 'conv1d (Conv1D)','dense (Dense)','resh
 d = pd.DataFrame(data=d)
 d
 
-f = open('/Users/bartoszmirecki/Documents/Coding/time_series_forecasting_project/CNN_history', 'rb')
+if platform.system()=='Darwin' or platform.system()=='Linux':
+    f = open(os.path.dirname(__file__)+'/CNN_history', 'rb')
+elif platform.system()=='Windows':
+    f = open(os.path.dirname(__file__)+'\CNN_history', 'rb')
+
 loss = pickle.load(f)
 
 st.subheader('Learning loss plot')
