@@ -13,10 +13,14 @@ Project is created with:
 # Setup
 To see presentation visit link: https://bartosz-mirecki-airquality-presentation-xh49r7.streamlitapp.com/
 
+# File describe
+
 * AirQualityUCI - folder with csv data.
 * Air_polution.py - normalise data, training the model, validation of the trained model
 * PrepPresentation.py - preparation data for presentation
 * Presentation.py - presentation of the project in streamlit
+
+# Bibliography
 
 * Project is based on a article:
 https://www.tensorflow.org/tutorials/structured_data/time_series
