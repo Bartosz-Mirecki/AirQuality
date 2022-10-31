@@ -1,7 +1,7 @@
 # AirQuality
 
 # General info
-This project shows prediction of the air quality parameter(tin oxide) 24 hours ahead .
+This project shows prediction of the air quality parameter(tin oxide) 24 hours ahead, using convolutional neural network
 	
 # Technologies
 Project is created with:
