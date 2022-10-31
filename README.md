@@ -1,7 +1,7 @@
 # AirQuality
 
 # General info
-This project shows prediction of the air quality parameter(tin oxide) 24 hours ahead, using convolutional neural network
+This project shows prediction of the air quality parameter(tin oxide) 24 hours ahead, using convolutional neural network.
 	
 # Technologies
 Project is created with:
@@ -12,3 +12,14 @@ Project is created with:
 	
 # Setup
 To see presentation visit link: https://bartosz-mirecki-airquality-presentation-xh49r7.streamlitapp.com/
+
+* AirQualityUCI - folder with csv data.
+* Air_polution.py - normalise data, training the model, validation of the trained model
+* PrepPresentation.py - preparation data for presentation
+* Presentation.py - presentation of the project in streamlit
+
+Project is based on a article:
+https://www.tensorflow.org/tutorials/structured_data/time_series
+Data are downloaded form:
+https://archive.ics.uci.edu/ml/datasets/Air+Quality
+There is also describe of the elements in dataset.
