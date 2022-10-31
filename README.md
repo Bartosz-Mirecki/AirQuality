@@ -18,8 +18,8 @@ To see presentation visit link: https://bartosz-mirecki-airquality-presentation-
 * PrepPresentation.py - preparation data for presentation
 * Presentation.py - presentation of the project in streamlit
 
-Project is based on a article:
+* Project is based on a article:
 https://www.tensorflow.org/tutorials/structured_data/time_series
-Data are downloaded form:
+* Data are downloaded form:
 https://archive.ics.uci.edu/ml/datasets/Air+Quality
 There is also describe of the elements in dataset.
