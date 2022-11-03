@@ -56,7 +56,8 @@ def prep_data(data_set):
     for col in data_set:
         op = data_set[col]
         bad_op = op == -200
-        op[bad_op] = 0.0
+        good_op = op != -200
+        op[bad_op] = op[good_op].mean()
 
     print('transpose data set after cope with invalid values:')
     print(data_set.describe().transpose())
